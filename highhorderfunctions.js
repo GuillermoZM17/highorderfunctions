@@ -51,7 +51,7 @@ console.log("sort: orden por edad ascendente ===");
 const ordenadosPorEdad = [...empleados].sort((a, b) => a.edad - b.edad);
 console.table(ordenadosPorEdad);
 
-console.log("\n=== sort: orden por salario descendente");
+console.log("sort: orden por salario descendente");
 const ordenadosPorSalarioDesc = [...empleados].sort((a, b) => b.salario - a.salario);
 console.table(ordenadosPorSalarioDesc);
 
